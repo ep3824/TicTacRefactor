@@ -3,7 +3,15 @@ import React from 'react';
 
 function X(props) {
   return (
-  <div className=" X ">X</div>
+    <div>
+      {props.boardstate === 'X' ?   
+      <div className="X">
+        X
+      </div> 
+      : 
+      <div className="empty">''</div> 
+      }
+    </div>
   )
 }
 

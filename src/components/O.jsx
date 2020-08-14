@@ -1,10 +1,18 @@
 import React from 'react';
 
 
-function O(props) {
+function X(props) {
   return (
-  <div className=" O ">O</div>
+    <div>
+      {props.boardstate === 'O' ?   
+      <div className="O">
+        O
+      </div> 
+      : 
+      <div className="empty">{' '}</div> 
+      }
+    </div>
   )
 }
 
-export default O;
+export default X;
