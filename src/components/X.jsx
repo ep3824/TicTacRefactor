@@ -3,9 +3,7 @@ import React from 'react';
 
 function X(props) {
   return (
-  <div className="X">
-    X
-  </div>
+  <div className=" X ">X</div>
   )
 }
 
