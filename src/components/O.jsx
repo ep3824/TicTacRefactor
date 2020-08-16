@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function X(props) {
+function O(props) {
   return (
     <div>
       {props.boardstate === 'O' ?   
@@ -15,4 +15,4 @@ function X(props) {
   )
 }
 
-export default X;
+export default O;
