@@ -45,7 +45,6 @@ class Piece extends React.Component {
     return (
     <div className="piece border" onClick={this.handleClick}>
       {this.pieceChecker(this.props)}
-      {/* {this.props.boardstate[0] === 'O' ? <O boardstate={'O'} /> : <X boardstate={'X'}/>} */}
     </div>
     )
   }
