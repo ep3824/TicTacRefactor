@@ -3,6 +3,7 @@ import X from './X'
 import O from './O'
 
 
+
 class Piece extends React.Component {
   constructor(props) {
     super(props)
@@ -13,6 +14,12 @@ class Piece extends React.Component {
     }
     this.handleClick = this.handleClick.bind(this);
     this.pieceChecker = this.pieceChecker.bind(this);
+  }
+
+  componentDidMount() {
+    fetch('/graphql')
+      .then(r => r.json())
+      .then(data => console.log('data returned:', data));
   }
 
   handleClick(e) {

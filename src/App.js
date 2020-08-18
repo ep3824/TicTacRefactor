@@ -1,13 +1,16 @@
-import React from 'react';
-import './App.css';
-import Board from './components/Board'
+// import React from 'react';
+// import { ApolloProvider } from "react-apollo";
+// import './App.css';
+// import Board from './components/Board'
 
-function App() {
-  return (
-    <div className="App">
-      <Board />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <ApolloProvider client={client}>
+//       <div className="App">
+//         <Board />
+//       </div>
+//     </ApolloProvider>
+//   );
+// }
 
-export default App;
+// export default App;
